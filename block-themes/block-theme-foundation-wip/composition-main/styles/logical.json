@@ -1,0 +1,100 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.4/theme.json",
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#f2e8da",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Base/2",
+					"slug": "base-2"
+				},
+				{
+					"color": "#111111",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#ffbe98",
+					"name": "Contrast",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "#522a28",
+					"name": "Accent",
+					"slug": "accent"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "NotoSans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [
+								"file:./assets/fonts/Noto/NotoSans-VariableFont_slnt,wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto\", sans-serif",
+					"name": "Noto-Sans",
+					"slug": "body"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "NotoSerif",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 900",
+							"src": [
+								"file:./assets/fonts/Noto/NotoSerif-VariableFont_slnt,wght.ttf"
+							]
+						}
+					],
+					"fontFamily": "\"Noto\", serif",
+					"name": "Noto-Serif",
+					"slug": "heading"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--base)",
+			"text": "var(--wp--preset--color--base-2)"
+		},
+		"elements": {
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--accent)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--base-2)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--body)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--body)",
+			"fontSize": "1.2rem",
+			"lineHeight": "1.6"
+		}
+	}
+}
